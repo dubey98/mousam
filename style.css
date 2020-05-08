@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Geneva, Tahoma, sans-serif;
 }
 .container{
     width: 400px;
@@ -32,9 +32,17 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-flow:column wrap;
+    font-size: 18px;
+    font-weight: 100;
 }
 .card{
     padding: 10px;
     margin: 0;
     text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.temp{
+    box-sizing: border-box;
+    background-color: yellowgreen;
 }
